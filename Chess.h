@@ -1,12 +1,13 @@
 #ifndef CHESS_H
 #define CHESS_H
 
+#include "Board.h"
 #include <iostream>
 
 class Chess
 {
 private:
-	char board[8][8];
+	Board board;
 
 public:
 	Chess();

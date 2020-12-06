@@ -10,9 +10,10 @@ protected:
 	std::pair <int, int> coordinates;
 public:
 	Piece();
-	Piece(const Piece& p);
-	Piece& operator =(const Piece& p);
 	virtual std::vector<std::pair <int, int>> availableMoves() = 0;
+	virtual ~Piece() = default;
+	std::pair <int, int> getCoordinates();
+	void setCoordinates(const int& x, const int& y);
 };
 
 #endif /* PIECE_H */

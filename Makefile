@@ -3,7 +3,7 @@ WINCOMPILER=x86_64-w64-mingw32-g++
 FLAGS=-std=c++11 -Wpedantic -Wall -Werror -Wextra -Weffc++ -Wzero-as-null-pointer-constant
 LIBS=-static-libgcc -static-libstdc++
 OPTIMIZE=-O2
-FILES=Board.h Board.cpp Chess.h Chess.cpp main.cpp
+FILES=Piece.h Piece.cpp Pawn.h Pawn.cpp Board.h Board.cpp Chess.h Chess.cpp main.cpp
 OUTPUT=chess
 
 all: chess

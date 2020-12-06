@@ -1,6 +1,7 @@
 #ifndef CHESS_H
 #define CHESS_H
 
+#include "Pawn.h"
 #include "Board.h"
 #include <iostream>
 
